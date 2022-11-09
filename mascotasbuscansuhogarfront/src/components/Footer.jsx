@@ -2,57 +2,73 @@ import "../Style.css";
 
 function Footer() {
     return (
-        <footer class="footer text-center">
-            <div class="container">
-                <div class="row">
-                    <div class="col-lg-4 mb-5 mb-lg-0">
-                        <h4 class="text-uppercase mb-4">Localización</h4>
-                        <p class="lead text-center">Colombia</p>
-                    </div>
-
-                    <div class="col-lg-4 mb-5 mb-lg-0">
-                        <h4 class="text-uppercase mb-4">Síguenos en la web</h4>
-                        <a
-                            class="btn btn-outline-light btn-social mx-1"
-                            href="#!"
-                        >
-                            <i class="fab fa-fw fa-facebook-f"></i>
-                        </a>
-                        <a
-                            class="btn btn-outline-light btn-social mx-1"
-                            href="#!"
-                        >
-                            <i class="fab fa-fw fa-twitter"></i>
-                        </a>
-                        <a
-                            class="btn btn-outline-light btn-social mx-1"
-                            href="#!"
-                        >
-                            <i class="fab fa-fw fa-linkedin-in"></i>
-                        </a>
-                        <a
-                            class="btn btn-outline-light btn-social mx-1"
-                            href="#!"
-                        >
-                            <i class="fab fa-fw fa-dribbble"></i>
-                        </a>
-                    </div>
-                    <div class="col-lg-4">
-                        <h4 class="text-uppercase mb-4">Acerca MBH</h4>
-                        <p class="lead text-center">
-                            Mascotas buscan su hogar.
-                        </p>
-                    </div>
-                </div>
-            </div>
-            <br/>
-            <div class="copyright py-4 text-center text-white">
+        <div>
+            <footer className="footer text-center">
                 <div class="container">
-                    <small>Copyright &copy; Your Website 2022</small>
+                    <div class="row">
+                        <div class="col-lg-4 mb-5 mb-lg-0">
+                            <h4 class="text-uppercase mb-4">Localización</h4>
+                            <p class="lead text-center">Colombia</p>
+                        </div>
+                        <div class="col-lg-4 mb-5 mb-lg-0">
+                            <h4 class="text-uppercase mb-4">
+                                Síguenos en la web
+                            </h4>
+                            <section class="botonfooter">
+                            <div class="container p-4 pb-0">
+                            <button
+                                            type="button"
+                                            class="btn btn-primary btn-floating mx-2"
+                                            id="sociales1"
+                                        >
+                                <i class="fa fa-facebook" />
+                                </button>
+                                <button
+                                            type="button"
+                                            class="btn btn-primary btn-floating mx-2"
+                                            id="sociales1"
+                                        >
+                                <i href="#" class="fa fa-twitter" />
+                                </button>
+                                <button
+                                            type="button"
+                                            class="btn btn-primary btn-floating mx-2"
+                                            id="sociales1"
+                                        >
+                                <i href="#" class="fa fa-google-plus" />
+                                </button>
+                                <button
+                                            type="button"
+                                            class="btn btn-primary btn-floating mx-2"
+                                            id="sociales1"
+                                        >
+                                <i href="#" class="fa fa-youtube" />
+                                </button>
+                                <button
+                                            type="button"
+                                            class="btn btn-primary btn-floating mx-2"
+                                            id="sociales1"
+                                        >
+                                <i href="#" class="fa fa-linkedin" />
+                                </button>
+                            </div>
+                            </section>
+                        </div>
+                        <div class="col-lg-4">
+                            <h4 class="text-uppercase mb-4">Acerca MBH</h4>
+                            <p class="lead text-center">
+                                Mascotas buscan su hogar.
+                            </p>
+                        </div>
+                    </div>
+                    <br />
+                    <div class="copyright text-center text-white">
+                        <br />
+                        <small>Copyright &copy; Your Website 2022</small>
+                    </div>
                 </div>
-            </div>
-        </footer>
-        
+            </footer>
+        </div>
     );
 }
 export default Footer;

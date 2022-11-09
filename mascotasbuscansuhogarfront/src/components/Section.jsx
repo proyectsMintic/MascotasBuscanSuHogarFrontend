@@ -68,7 +68,6 @@ function Section() {
                     </div>
                 </div>
             </section>
-
             <section class="page-section bg-primary text-white mb-0" id="about">
                 <div class="container">
                     <h2 class="page-section-heading text-center text-uppercase text-white">

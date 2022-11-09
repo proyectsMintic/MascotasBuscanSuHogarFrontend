@@ -1,7 +1,8 @@
 import logo from "../img/logo.png";
 import "../Style.css";
+import Section from "./Section";
 
-function Header() {
+function Index() {
     return (
         <div>
             <header class="masthead bg-primary text-white text-center">
@@ -35,8 +36,9 @@ function Header() {
                     </p>
                 </div>
             </header>
+        <Section />
         </div>
     );
 }
 
-export default Header;
+export default Index;

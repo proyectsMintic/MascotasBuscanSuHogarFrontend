@@ -1,22 +1,31 @@
+import { Link } from "react-router-dom";
 import logo from "../img/logoAzul.png";
 import "../Style.css";
+
 
 function Navbar() {
     return (
         <div id="navbar">
             <nav
-                class="navbar navbar-expand-lg bg-secondary text-uppercase fixed-top"
+                className="navbar navbar-expand-lg bg-secondary text-uppercase fixed-top"
                 id="mainNav"
             >
                 <div class="container">
+                    
+                    
                     <div class="logo1">
+                        <Link to={"/"}>
                         <img
+                            
                             classname="masthead-avatar mb-5 align-center"
                             src={logo}
                             width="120px"
                             height="120px"
+                            alt="..."
                         />
+                        </Link>
                     </div>
+                    
                     <button
                         class="navbar-toggler text-uppercase font-weight-bold bg-primary text-white rounded"
                         type="button"
@@ -32,14 +41,14 @@ function Navbar() {
                     <div class="collapse navbar-collapse" id="navbarResponsive">
                         <ul class="navbar-nav ms-auto">
                             <li classname="nav-item mx-0 mx-lg-1">
-                                <h3 class="nav-link py-3 px-0 px-lg-3 rounded">
+                                
+                                <Link to={"/Principal"} class="nav-link py-3 px-0 px-lg-3 rounded">
                                     Registro <br />
                                     mascotas perdidas
-                                </h3>
+                                </Link>
                             </li>
                             <li class="nav-item mx-0 mx-lg-1">
                                 <h3
-                                    HREF="form_pet_find.html"
                                     class="nav-link py-3 px-0 px-lg-3 rounded"
                                 >
                                     Registro
