@@ -35,13 +35,6 @@ function Footer() {
                                             class="btn btn-primary btn-floating mx-2"
                                             id="sociales1"
                                         >
-                                <i href="#" class="fa fa-google-plus" />
-                                </button>
-                                <button
-                                            type="button"
-                                            class="btn btn-primary btn-floating mx-2"
-                                            id="sociales1"
-                                        >
                                 <i href="#" class="fa fa-youtube" />
                                 </button>
                                 <button

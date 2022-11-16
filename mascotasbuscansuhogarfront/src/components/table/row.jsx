@@ -5,17 +5,13 @@ function Row(props) {
     //props.columns={props.columns}
     //props.tools={props.tools}
     //props.path
+    
     return (
         <tr>
-            {props.columns.map(function (value, index) {
-                return <Cell value={props.rowData[value]} index={index} />;
-            })}
-            <Tools
-                path={props.path}
-                tools={props.tools}
-                id={props.rowData[props.columns[0]]}
-            />
+            
+                <Cell value={props.rowData} path={props.path}/>
         </tr>
+        
     );
 }
 

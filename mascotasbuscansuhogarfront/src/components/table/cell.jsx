@@ -1,10 +1,99 @@
+import { Link } from "react-router-dom";
+
 function Cell(props) {
+    let url = props.paht+"/Informacion/"+props.value.id;
     //props.value
     //props.index
-    if (props.index === 0) {
-        return <th scope="row">{props.value}</th>;
-    }
-    return <td>{props.value}</td>;
+    return (
+        <th>
+            <div
+                class="row d-flex justify-content-center align-items-center h-100"
+                id="contenedor-cell"
+            >
+                <div class="col-md-7 col-lg-6 col-xl-4">
+                    <Link to={url}>
+                        <img src={props.value.Imagen} alt="i" id="img-cell" />
+                    </Link>
+                </div>
+
+                <div class="col-md-10 col-lg-6 col-xl-6 offset-xl-1">
+                    <br />
+                    <form>
+                        <div class="container">
+                            <div class="mb-4 row ">
+                                <label
+                                    for="staticEmail"
+                                    class="col-sm-3 col-form-label"
+                                >
+                                    <h5>Estado: </h5>
+                                </label>
+                                <div class="col-sm-9">
+                                    <input
+                                        type="text"
+                                        readonly
+                                        class="form-control-plaintext"
+                                        id="staticEmail"
+                                        value={props.value.Observacion}
+                                    />
+                                </div>
+                            </div>
+                            <div class="mb-4 row">
+                                <label
+                                    for="staticEmail"
+                                    class="col-sm-3 col-form-label"
+                                >
+                                    <h5>Nombre: </h5>
+                                </label>
+                                <div class="col-sm-9">
+                                    <input
+                                        type="text"
+                                        readonly
+                                        class="form-control-plaintext"
+                                        id="staticEmail"
+                                        value={props.value.Nombre}
+                                    />
+                                </div>
+                            </div>
+                            <div class="mb-4 row">
+                                <label
+                                    for="staticEmail"
+                                    class="col-sm-3 col-form-label"
+                                >
+                                    <h5>Autor: </h5>
+                                </label>
+                                <div class="col-sm-9">
+                                    <input
+                                        type="text"
+                                        readonly
+                                        class="form-control-plaintext"
+                                        id="staticEmail"
+                                        value="Kenet Barrera"
+                                    />
+                                </div>
+                            </div>
+                            <div class="mb-5 row">
+                                <label
+                                    for="staticEmail"
+                                    class="col-sm-3 col-form-label"
+                                >
+                                    <h5>Contacto: </h5>
+                                </label>
+                                <div class="col-sm-8">
+                                    <input
+                                        type="text"
+                                        readonly
+                                        class="form-control-plaintext"
+                                        id="staticEmail"
+                                        value={props.value.id}
+                                    />
+                                </div>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </th>
+    );
 }
 
 export default Cell;

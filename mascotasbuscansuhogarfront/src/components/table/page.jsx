@@ -1,28 +1,38 @@
+//import CreateButton from "../table/CreateBotton";
+//import SearchBar from "../table/SearchBar";
+import SearchBar from "./searchbar";
 import Table from "./table";
 
-import { useState } from "react";
-import "../../Style.css";
 
-function Page() {
+function Page(props) {
+    
     return (
-        <div clas="container">
-            <br /> <br /> <br /> <br />
-            <section class="page-section portfolio" id="portfolio">
-                <br/>
-                <div clas="container">
-                    <h5 class="page-section-heading text-center text-uppercase text-secondary mb-0">
-                        Mascotas Registradas
-                    </h5>
-                </div>
-                <div class="divider-custom">
-                    <div class="divider-custom-line"></div>
-                    <div class="divider-custom-icon">
-                        <i class="fas fa-cat"></i>
-                    </div>
-                    <div class="divider-custom-line"></div>
-                </div>
-                
-            </section>
+        <div>
+
+                <Table
+                    name={props.name}
+                    data={props.data}
+                    path={props.path}
+                    columns={props.columns}
+                    columnsAlias={props.columnsAlias}
+                    tools={props.tools}
+                />
+                {/*<CreateButton path={props.path} />
+                        <SearchBar
+                            data={props.data}
+                            setDataforTable={setDataforTable}
+                        
+                            columns={props.columns}
+                        />*/}
+
+                {/*<Table
+                        data={dataForTable}
+                        path={props.path}
+                        name={props.name}
+                        columns={props.columns}
+                        columnsAlias={props.columnsAlias}
+                        tools={props.tools}
+                    />*/}
         </div>
     );
 }

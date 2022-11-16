@@ -1,9 +1,11 @@
 import { Link } from "react-router-dom";
 import logo from "../img/logoAzul.png";
 import "../Style.css";
+import MascotasPerdidas from "./modals/MascotasPerdidas";
+import MascotasEncontradas from "./modals/MascotasEncontradas";
+import LogButton from "./nabvar/LogButton";
 
-
-function Navbar() {
+function Navbar(props) {
     return (
         <div id="navbar">
             <nav
@@ -31,8 +33,8 @@ function Navbar() {
                         type="button"
                         data-bs-toggle="collapse"
                         data-bs-target="#navbarResponsive"
-                        aria-controls="navbarResponsive"
-                        aria-expanded="false"
+                        aria-controls="collapseExample"
+                        aria-expanded="true"
                         aria-label="Toggle navigation"
                     >
                         Menú
@@ -41,35 +43,14 @@ function Navbar() {
                     <div class="collapse navbar-collapse" id="navbarResponsive">
                         <ul class="navbar-nav ms-auto">
                             <li classname="nav-item mx-0 mx-lg-1">
-                                
-                                <Link to={"/Principal"} class="nav-link py-3 px-0 px-lg-3 rounded">
-                                    Registro <br />
-                                    mascotas perdidas
-                                </Link>
-                            </li>
-                            <li class="nav-item mx-0 mx-lg-1">
-                                <h3
-                                    class="nav-link py-3 px-0 px-lg-3 rounded"
-                                >
-                                    Registro
-                                    <br />
-                                    Mascotas Encontradas
-                                </h3>
-                            </li>
-                            <li class="nav-item mx-0 mx-lg-1">
-                                <h3
-                                    
-                                    class="nav-link py-3 px-0 px-lg-3 rounded"
-                                >
-                                    Iniciar
-                                    <br />
-                                    Sesion
-                                </h3>
+                            <LogButton logged={props.logged} />
                             </li>
                         </ul>
                     </div>
                 </div>
             </nav>
+            <MascotasPerdidas />
+            <MascotasEncontradas />
         </div>
     );
 }

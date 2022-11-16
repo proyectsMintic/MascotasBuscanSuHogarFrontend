@@ -9,17 +9,20 @@ function Table(props) {
     //props.tools={["update", "delete"]}
     //props.path
     return (
-        <div className="mx-5">
-            <table class="table">
-                <caption>{props.name}</caption>
-                <Header columns={props.columnsAlias} tools={props.tools} />
-                <Body
-                    path={props.path}
-                    data={props.data}
-                    columns={props.columns}
-                    tools={props.tools}
-                />
-            </table>
+        <div class="container">
+            <div class="mx-5">
+                <table class="table">
+                    <Header columns={props.columnsAlias} tools={props.tools} />
+                    <Body
+                        data={props.data}
+                        columns={props.columns}
+                        tools={props.tools}
+                    />
+                    <caption>
+                        <i>{props.name}</i>
+                    </caption>
+                </table>
+            </div>
         </div>
     );
 }

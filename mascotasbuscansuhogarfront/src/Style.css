@@ -11541,7 +11541,7 @@ img {
 }
 
 .botonfooter {
-  min-width: 20px;
+  min-width: 10px;
   display: flex;
   justify-content: space-around;
 }
@@ -11549,7 +11549,27 @@ img {
 #botoningresar {
   background-color: #314652;
   border-color: #fdfdfe;
+  height: 50px;
 }
+
+#botoncancelar {
+  height: 50px;
+  background-color: var(--bs-primary);
+  border-color: #fff;
+}
+
+#img-cell {
+  height:300px;
+  width: 300px;
+  border: 1px;
+  border-radius: 30%;
+}
+
+#contenedor-cell {
+  border: 1px solid ;
+  border-radius: 2%;
+}
+
 .boton i {
   text-decoration: none;
   font-size: 28px;
@@ -11566,10 +11586,10 @@ img {
 
 .botonfooter i {
   text-decoration: none;
-  font-size: 28px;
+  font-size: 20px;
   width: 40px;
   height: 40px;
-  line-height: 40px;
+  line-height: 35px;
   text-align: center;
   background: #1abc9c;
   color: #fdfdfe;
@@ -11590,7 +11610,6 @@ img {
   transform: scale(1.2);
 }
 
-
 #sociales {
   background: #fff;
   border-color: #fff;
@@ -11601,4 +11620,22 @@ img {
   height: 50px;
   background: #2c3e50;
   border-color: #2c3e50;
+}
+
+#registerlogo {
+  width: 500px;
+  height: 500px;
+}
+
+#registerinput {
+  width: 200px;
+}
+
+
+#registerpassword {
+  width: 420px;
+}
+
+#checkregister {
+  align-items: left;
 }
