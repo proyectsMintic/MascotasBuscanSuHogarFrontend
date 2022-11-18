@@ -11568,6 +11568,8 @@ img {
 #contenedor-cell {
   border: 1px solid ;
   border-radius: 2%;
+  color: #212529;
+  background-color: #fff;
 }
 
 .boton i {
@@ -11638,4 +11640,9 @@ img {
 
 #checkregister {
   align-items: left;
+}
+
+label{
+display: inline-block;
+color: #198754;
 }

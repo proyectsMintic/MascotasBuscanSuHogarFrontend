@@ -1,4 +1,5 @@
 import { Link } from "react-router-dom";
+import '../../Style.css';
 
 function Cell(props) {
     let url = props.paht+"/Informacion/"+props.value.id;
@@ -33,7 +34,7 @@ function Cell(props) {
                                         readonly
                                         class="form-control-plaintext"
                                         id="staticEmail"
-                                        value={props.value.Observacion}
+                                        value={props.value.Descripcion}
                                     />
                                 </div>
                             </div>
@@ -71,7 +72,41 @@ function Cell(props) {
                                     />
                                 </div>
                             </div>
-                            <div class="mb-5 row">
+                            <div class="mb-4 row">
+                                <label
+                                    for="staticEmail"
+                                    class="col-sm-3 col-form-label"
+                                >
+                                    <h5>Rasgos: </h5>
+                                </label>
+                                <div class="col-sm-8">
+                                    <input
+                                        type="text"
+                                        readonly
+                                        class="form-control-plaintext"
+                                        id="staticEmail"
+                                        value={props.value.Rasgos}
+                                    />
+                                </div>
+                            </div>
+                            <div class="mb-4 row">
+                                <label
+                                    for="staticEmail"
+                                    class="col-sm-3 col-form-label"
+                                >
+                                    <h5>Sexo: </h5>
+                                </label>
+                                <div class="col-sm-8">
+                                    <input
+                                        type="text"
+                                        readonly
+                                        class="form-control-plaintext"
+                                        id="staticEmail"
+                                        value={props.value.Sexo}
+                                    />
+                                </div>
+                            </div>
+                            <div class="mb-4 row">
                                 <label
                                     for="staticEmail"
                                     class="col-sm-3 col-form-label"
