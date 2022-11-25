@@ -27,7 +27,7 @@ let usuarios = [
         "descripcion": "Esta desnutrido",
         "sexo": "Macho",
         "estado": "perdido",
-        "url": "https://www.google.com/https://www.google.com/imgres?imgurl=http%3A%2F%2Fimagenes.4ever.eu%2Fdata%2Fdownload%2Fanimales%2Fcaballos%2Fcaballo-negro-216928.jpg%3Fno-logo&imgrefurl=http%3A%2F%2Fimagenes.4ever.eu%2Fanimales%2Fcaballos%2Fcaballo-negro-216928&tbnid=Hw-_oYjNksu7qM&vet=12ahUKEwiOt4fFmsr7AhWKMd8KHUkOBdAQMygOegUIARCCAg..i&docid=WiTF0kckaDux6M&w=4256&h=2832&q=caballo%20negro&client=opera&ved=2ahUKEwiOt4fFmsr7AhWKMd8KHUkOBdAQMygOegUIARCCAg?imgurl=http%3A%2F%2Fimagenes.4ever.eu%2Fdata%2Fdownload%2Fanimales%2Fcaballos%2Fcaballo-negro-216928.jpg%3Fno-logo&imgrefurl=http%3A%2F%2Fimagenes.4ever.eu%2Fanimales%2Fcaballos%2Fcaballo-negro-216928&tbnid=Hw-_oYjNksu7qM&vet=12ahUKEwiOt4fFmsr7AhWKMd8KHUkOBdAQMygOegUIARCCAg..i&docid=WiTF0kckaDux6M&w=4256&h=2832&q=caballo%20negro&client=opera&ved=2ahUKEwiOt4fFmsr7AhWKMd8KHUkOBdAQMygOegUIARCCAg"
+        "url": "https://www.zotal.com/wp-content/uploads/2019/08/razascaballos.png"
     },
     {
         "id": 2,
@@ -37,7 +37,7 @@ let usuarios = [
         "descripcion": "Tiene un ojo  herido",
         "sexo": "Macho",
         "estado": "perdido",
-        "url": "https://d.img.vision/url/sasha.jpg"
+        "url": "https://images.hola.com/imagenes/mascotas/20221019219142/motivos-perros-se-contagian-ladrido-dn/1-152-558/motivos-perro-imita-ladrido-t.jpg?tx=w_744"
     },
     {
         "id": 5,
@@ -46,9 +46,7 @@ let usuarios = [
         "descripcion": "Es una gatica que acabo de dar a luz",
         "sexo": "hembra",
         "estado": "encontrado",
-        "url": "https://d.img.vision/url/gatamam_.jpg"
-
-
+        "url": "https://ateuves.es/wp-content/uploads/2016/04/at0416_ciclo_sexual_gata_cabecera.jpg"
     },
     {
         "id": 6,
@@ -76,7 +74,7 @@ let usuarios = [
         "descripcion": "Para adopcion",
         "sexo": "Esta en belen cerca a la udem",
         "estado": "encontrado",
-        "url": "https://d.img.vision/url/perropataherida.jpg"
+        "url": "https://www.animalesbog.gov.co/sites/default/files/noticias/imagenes/WhatsApp%20Image%202020-05-28%20at%2013.31.12.jpeg?slideshow=true&slideshowAuto=true&slideshowSpeed=4000&speed=350&transition=elastic"
     },
     {
         "id": 9,
@@ -94,7 +92,7 @@ let usuarios = [
         "descripcion": "Esta mal",
         "sexo": "lo vi por la canalizacion del estadio",
         "estado": "perdido",
-        "url": "https://d.img.vision/url/perrocafeblanco.jpg"
+        "url": "https://www.animalesbog.gov.co/sites/default/files/noticias/imagenes/WhatsApp%20Image%202020-05-28%20at%2013.31.11.jpeg"
     },
     {
         "id": 11,
@@ -112,7 +110,7 @@ let usuarios = [
         "descripcion": "Lo dejaron en una caja",
         "sexo": "Esta en la estacion del metro floresta",
         "estado": "perdido",
-        "url": "https://d.img.vision/url/download.jpg"
+        "url": "https://www.animalesbog.gov.co/sites/default/files/noticias/imagenes/WhatsApp%20Image%202020-05-28%20at%2013.31.13.jpeg"
     },
     {
         "id": 13,
@@ -121,7 +119,7 @@ let usuarios = [
         "descripcion": "Parece que tiene dueño por que esta muy bien ",
         "sexo": "lo vi  por el exito de robledo",
         "estado": "perdido",
-        "url": "https://d.img.vision/url/perrocriollo.jpg"
+        "url": "https://www.animalesbog.gov.co/sites/default/files/noticias/imagenes/WhatsApp%20Image%202020-05-28%20at%2013.31.16.jpeg"
     },
     {
         "id": 14,
@@ -130,7 +128,7 @@ let usuarios = [
         "descripcion": "Para adopcion",
         "sexo": "en la perla",
         "estado": "perdido",
-        "url": "http://g.cdn.ecn.cl/fenomenos-paranormales/files/2015/07/gatos-adivinos.jpg"
+        "url": "https://www.animalesbog.gov.co/sites/default/files/noticias/imagenes/WhatsApp%20Image%202020-05-28%20at%2013.31.15.jpeg"
     },
     {
         "id": 15,
@@ -139,7 +137,7 @@ let usuarios = [
         "descripcion": "Para dar en adopcion",
         "sexo": "Esta en belen cerca al parque",
         "estado": "perdido",
-        "url": "https://d.img.vision/url/gatoreciennacido.jpg"
+        "url": "https://www.elpaisdelosjovenes.com/wp-content/uploads/2015/05/03_02.jpg"
     },
     {
         "id": 16,

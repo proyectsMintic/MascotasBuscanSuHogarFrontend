@@ -34,7 +34,7 @@ function Cell(props) {
                                         readonly
                                         class="form-control-plaintext"
                                         id="staticEmail"
-                                        value={props.value.Nombre}
+                                        value={props.value.nombre}
                                     />
                                 </div>
                             </div>
