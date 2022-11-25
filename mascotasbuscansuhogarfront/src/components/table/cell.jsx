@@ -1,8 +1,8 @@
 import { Link } from "react-router-dom";
-import '../../Style.css';
+import "../../Style.css";
 
 function Cell(props) {
-    let url = props.paht+"/Informacion/"+props.value.id;
+    let url = props.paht + "/Informacion/" + props.value.id;
     //props.value
     //props.index
     return (
@@ -13,7 +13,7 @@ function Cell(props) {
             >
                 <div class="col-md-7 col-lg-6 col-xl-4">
                     <Link to={url}>
-                        <img src={props.value.Imagen} alt="i" id="img-cell" />
+                        <img src={props.value.url} alt="i" id="img-cell" />
                     </Link>
                 </div>
 
@@ -22,23 +22,6 @@ function Cell(props) {
                     <form>
                         <div class="container">
                             <div class="mb-4 row ">
-                                <label
-                                    for="staticEmail"
-                                    class="col-sm-3 col-form-label"
-                                >
-                                    <h5>Estado: </h5>
-                                </label>
-                                <div class="col-sm-9">
-                                    <input
-                                        type="text"
-                                        readonly
-                                        class="form-control-plaintext"
-                                        id="staticEmail"
-                                        value={props.value.Descripcion}
-                                    />
-                                </div>
-                            </div>
-                            <div class="mb-4 row">
                                 <label
                                     for="staticEmail"
                                     class="col-sm-3 col-form-label"
@@ -60,7 +43,7 @@ function Cell(props) {
                                     for="staticEmail"
                                     class="col-sm-3 col-form-label"
                                 >
-                                    <h5>Autor: </h5>
+                                    <h5>Raza: </h5>
                                 </label>
                                 <div class="col-sm-9">
                                     <input
@@ -68,7 +51,7 @@ function Cell(props) {
                                         readonly
                                         class="form-control-plaintext"
                                         id="staticEmail"
-                                        value="Kenet Barrera"
+                                        value={props.value.raza}
                                     />
                                 </div>
                             </div>
@@ -77,15 +60,15 @@ function Cell(props) {
                                     for="staticEmail"
                                     class="col-sm-3 col-form-label"
                                 >
-                                    <h5>Rasgos: </h5>
+                                    <h5>Descripción: </h5>
                                 </label>
-                                <div class="col-sm-8">
+                                <div class="col-sm-9">
                                     <input
                                         type="text"
                                         readonly
                                         class="form-control-plaintext"
                                         id="staticEmail"
-                                        value={props.value.Rasgos}
+                                        value={props.value.descripcion}
                                     />
                                 </div>
                             </div>
@@ -94,7 +77,7 @@ function Cell(props) {
                                     for="staticEmail"
                                     class="col-sm-3 col-form-label"
                                 >
-                                    <h5>Sexo: </h5>
+                                    <h5>sexo </h5>
                                 </label>
                                 <div class="col-sm-8">
                                     <input
@@ -102,7 +85,7 @@ function Cell(props) {
                                         readonly
                                         class="form-control-plaintext"
                                         id="staticEmail"
-                                        value={props.value.Sexo}
+                                        value={props.value.sexo}
                                     />
                                 </div>
                             </div>
@@ -111,7 +94,7 @@ function Cell(props) {
                                     for="staticEmail"
                                     class="col-sm-3 col-form-label"
                                 >
-                                    <h5>Contacto: </h5>
+                                    <h5>estado: </h5>
                                 </label>
                                 <div class="col-sm-8">
                                     <input
@@ -119,7 +102,7 @@ function Cell(props) {
                                         readonly
                                         class="form-control-plaintext"
                                         id="staticEmail"
-                                        value={props.value.id}
+                                        value={props.value.estado}
                                     />
                                 </div>
                             </div>
