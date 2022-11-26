@@ -36,7 +36,7 @@ function Index() {
                     </p>
                 </div>
             </header>
-        <Section />
+            <Section />
         </div>
     );
 }

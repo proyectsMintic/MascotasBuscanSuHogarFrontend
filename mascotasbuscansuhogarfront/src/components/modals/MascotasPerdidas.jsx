@@ -12,7 +12,9 @@ function MascotasPerdidas() {
             <div class="modal-dialog modal-xl modal-dialog-centered modal-dialog-scrollable">
                 <div class="modal-content">
                     <div class="modal-header">
-                        <h5 class="modal-title align-content-center">Mascotas Perdidas</h5>
+                        <h5 class="modal-title align-content-center">
+                            Mascotas Perdidas
+                        </h5>
                         <button
                             type="button"
                             class="btn-close"
@@ -42,85 +44,7 @@ function MascotasPerdidas() {
                                         />
                                     </div>
                                 </div>
-                                <br/>
-                                <div class="row form-group">
-                                    <label
-                                        for="edad"
-                                        class="col-form-label col-md-4"
-                                    >
-                                        Edad apróximada
-                                    </label>
-                                    <div class="col-md-8">
-                                        <input
-                                            type="text"
-                                            name="edad"
-                                            value=""
-                                            id="edad"
-                                            class="form-control "
-                                            placeholder="Ejm: 2 años"
-                                            required
-                                        />
-                                    </div>
-                                </div>
-                                <br/>
-                                <div class="row form-group">
-                                    <label
-                                        for="tipo"
-                                        class="col-form-label col-md-4"
-                                    >
-                                        Especie
-                                    </label>
-                                    <div class="form-group col-md-8">
-                                        <select
-                                            class="form-control"
-                                            id="especie"
-                                            required
-                                        >
-                                            <option>Canino</option>
-                                            <option>Felino</option>
-                                        </select>
-                                    </div>
-                                </div>
-                                <br/>
-                                <div class="row form-group">
-                                    <label
-                                        for="tipo"
-                                        class="col-form-label col-md-4"
-                                    >
-                                        Sexo
-                                    </label>
-                                    <div class="form-group col-md-8">
-                                        <select
-                                            class="form-control"
-                                            id="sexo"
-                                            required
-                                        >
-                                            <option>Macho</option>
-                                            <option>Hembra</option>
-                                        </select>
-                                    </div>
-                                </div>
-                                <br/>
-                                <div class="row form-group">
-                                    <label
-                                        for="color"
-                                        class="col-form-label col-md-4"
-                                    >
-                                        Color
-                                    </label>
-                                    <div class="col-md-8">
-                                        <input
-                                            type="text"
-                                            name="color"
-                                            value=""
-                                            id="color"
-                                            class="form-control"
-                                            placeholder="Ejm: Negro con manchas cafés"
-                                            required
-                                        />
-                                    </div>
-                                </div>
-                                <br/>
+                                <br />
                                 <div class="row form-group">
                                     <label
                                         for="raza"
@@ -140,7 +64,7 @@ function MascotasPerdidas() {
                                         />
                                     </div>
                                 </div>
-                                <br/>
+                                <br />
                                 <div class="row form-group">
                                     <label
                                         for="descripcion"
@@ -156,7 +80,7 @@ function MascotasPerdidas() {
                                             ayude a encontrar el hogar del
                                             peludito.
                                         </i>
-                                        <p/>
+                                        <p />
                                         <textarea
                                             rows="4"
                                             name="descripcion"
@@ -168,26 +92,7 @@ function MascotasPerdidas() {
                                         ></textarea>
                                     </div>
                                 </div>
-                                <br/>
-                                <div class="row form-group">
-                                    <label
-                                        for="fecha"
-                                        class="col-form-label col-md-4"
-                                    >
-                                        Fecha
-                                    </label>
-                                    <div class="col-md-8">
-                                        <input
-                                            type="date"
-                                            name="fecha"
-                                            value="fecha"
-                                            id="fecha"
-                                            class="form-control"
-                                            required
-                                        />
-                                    </div>
-                                </div>
-                                <br/>
+                                <br />
                                 <div class="row form-group">
                                     <label
                                         for="fot"
@@ -201,7 +106,7 @@ function MascotasPerdidas() {
                                             foto que subiste a
                                             "https://dash.img.vision/free-image-uploads"
                                         </i>
-                                        <p/>
+                                        <p />
                                         <input
                                             type="text"
                                             name="foto"
@@ -213,7 +118,47 @@ function MascotasPerdidas() {
                                         />
                                     </div>
                                 </div>
-                                <br/><br/>
+                                <br />
+                                <br />
+                                <div class="row form-group">
+                                    <label
+                                        for="edad"
+                                        class="col-form-label col-md-4"
+                                    >
+                                        Estado
+                                    </label>
+                                    <div class="col-md-8">
+                                        <input
+                                            type="text"
+                                            name="estado"
+                                            value=""
+                                            id="estado"
+                                            class="form-control "
+                                            placeholder="Perdida o encontrada"
+                                            required
+                                        />
+                                    </div>
+                                </div>
+                                <br />
+                                <div class="row form-group">
+                                    <label
+                                        for="tipo"
+                                        class="col-form-label col-md-4"
+                                    >
+                                        Sexo
+                                    </label>
+                                    <div class="form-group col-md-8">
+                                        <select
+                                            class="form-control"
+                                            id="sexo"
+                                            required
+                                        >
+                                            <option>Macho</option>
+                                            <option>Hembra</option>
+                                        </select>
+                                    </div>
+                                </div>
+                                <br />
                             </form>
                         </div>
                         <div class="modal-footer">

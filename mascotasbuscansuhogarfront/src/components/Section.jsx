@@ -1,5 +1,7 @@
-import logo1 from '../img/13.jpg';
-import logo2 from '../img/1.jpg';
+import { Link } from "react-router-dom";
+
+import logo1 from "../img/13.jpg";
+import logo2 from "../img/1.jpg";
 import "../Style.css";
 
 function Section() {
@@ -27,40 +29,13 @@ function Section() {
                                 data-bs-target="#portfolioModal1"
                             >
                                 <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
-                                    <div class="portfolio-item-caption-content text-center text-white">
-                                    </div>
-                                        <h1>
-                                            Mascotas <br />
-                                            Perdidas
-                                        </h1>
+                                    <div class="portfolio-item-caption-content text-center text-white"></div>
+                                    <Link to={"/Index"}>
+                                        Mascotas <br />
+                                        Registradas
+                                    </Link>
                                 </div>
-                                <img
-                                    class="img-fluid"
-                                    src={logo1}
-                                    alt="..."
-                                />
-                            </div>
-                        </div>
-
-                        <div class="col-md-6 col-lg-4 mb-5">
-                            <div
-                                class="portfolio-item mx-auto"
-                                data-bs-toggle="modal"
-                                data-bs-target="#portfolioModal2"
-                            >
-                                <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
-                                    <div class="portfolio-item-caption-content text-center text-white">
-                                    </div>
-                                        <h1>
-                                            Mascotas <br />
-                                            Encontradas{" "}
-                                        </h1>
-                                </div>
-                                <img
-                                    class="img-fluid"
-                                    src={logo2}
-                                    alt="..."
-                                />
+                                <img class="img-fluid" src={logo1} alt="..." />
                             </div>
                         </div>
                     </div>
